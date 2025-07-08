@@ -1,0 +1,96 @@
+td,th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+.main-background {
+    width: 800px;
+    height: 500px;
+    background-color:rgb(155, 231, 231)
+}
+
+.background-text {
+    padding-left: 50px;
+    padding-top: 40px;
+    color:rgb(65, 65, 198);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sub-array {
+    padding-left: 100px;
+    padding-right:100px;
+}
+
+.sub-amount {
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+.item-image1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.sub-item-title {
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align:top;
+    display:inline-block;
+    margin:0px;
+}
+
+.sub-item-description {
+    font-size: 12px;
+    vertical-align:bottom;
+    color:grey;
+    display:inline-block;
+    margin:0px;
+}
+
+.cart-container {
+    width:720px;
+    height:285px;
+    margin-left:40px;
+    background-color:white;
+}
+
+.sub-left-text {
+    padding-left: 50px;
+    padding-top: 0px;
+    color:rgb(65, 65, 198);
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sub-right-button {
+    display: inline-block;
+    margin-left: 550px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(65, 65, 198);
+    vertical-align: middle;
+    color:white;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    border:none;
+    border-radius: 10px;
+    background-color: coral;
+    color:white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: chocolate;
+}
+

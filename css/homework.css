@@ -1,0 +1,88 @@
+.main-background {
+    width: 480px;
+    height:600px;
+    background-color: #eee;
+}
+
+.title {
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.sub-title {
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+.email-input {
+    width: 300px;
+    height: 30px;
+    margin-left: 51.5px;
+    padding-left: 25px;
+}
+
+.name-input1 {
+    width: 120px;
+    height:30px;
+    margin-left: 50px;
+    padding-left: 25px;
+    display: inline-block;
+}
+.name-input2 {
+    width: 120px;
+    height: 30px;
+    margin-left: 28px;
+    padding-left: 25px;
+    display: inline-block;
+}
+
+.sub-firstname {
+    font-size: 18px;
+    padding-left: 50px;
+    display:inline-block;
+    padding-right: 50px;
+    margin-bottom: 10px;
+    display:inline-block;
+    margin-bottom:10px;
+}
+.sub-lastname {
+    font-size: 18px;
+    padding-left: 50px;
+    display:inline-block;
+    padding-left: 50px;
+    margin-bottom:10px;
+}
+
+.sub-message {
+    font-size: 18px;
+    padding-left: 50px;
+    margin-bottom:10px;
+}
+
+.message-input {
+    width:300px;
+    height: 150px;
+    margin-left: 50px;
+    padding-left: 25px;
+    margin-right: 150px;
+}
+
+.checkbox-input {
+    display: inline-block;
+    margin-top:25px;
+    margin-left: 50px;
+    padding-left: 25px;
+    padding-right: 100px;
+}
+
+.sub-button {
+    width: 100px;
+    height: 35px;
+    background-color: rgb(238, 203, 32);
+    color: white;
+    margin-left: 131px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
