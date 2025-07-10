@@ -553,11 +553,48 @@ input[type="text"] {
 }
 */
 
-body {
-    margin:0px;
-    font-family: 'gulim','dotum','arial';
+.shop-bg {
+    background-color: #eee;
+    padding: 20px;
 }
 
-@font-face {
-    font-family:
+.shop-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.shop-item {
+    width: 33%;
+    padding: 10px;
+}
+.shop-item img {
+    width: 100%;
+
+}
+
+.overlay-wrap {
+    position: absolute;;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overlay-wrap:hover .overlay-black{
+    overflow: hidden;
+    margin-top: 50%;
+}
+
+.price-white {
+    color:white;
+    font-size: 20px;
+}
+
+.overlay-black {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    margin-top: 100%;
+    transition: all 1s;
 }

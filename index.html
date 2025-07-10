@@ -1,16 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>프로필</title>
-    <link href="css/main.css" rel="stylesheet">
+    <title>Bootstrap 연습</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1 class="head">프로필</h1>
-    <img src="다운로드.jpeg" class="profile">
-    <h2 style="text-align: center">권상재</h2>
-    <p style="text-align: center">특기: 드르렁-~드르러 쿨쿨큘ㄹ~잠 자기</p>
-    <div class="box"><p >저의 블로그에 놀러오세요!</p></div>
+    <div class="container">
+        <div class="row">
+            <div class="card col-md-6 col-xl-3" style="width: 18rem;">
+            <img src="css/iphone.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <span class="badge rounded-pill text-bg-primary">News</span>
+                <h5 class="card-title">Blog post title</h5>
+                <p class="card-text fs-0.1">Some quick example text ti build on thr card title and make up the bulk og thr card's content.</p>
+            </div>
+            
+            </div>
+            <div class="card col-md-6 col-xl-3" style="width: 18rem;">
+            <img src="css/iphone.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <span class="badge rounded-pill text-bg-primary">News</span>
+                <h5 class="card-title">Blog post title</h5>
+                <p class="card-text fs-0.1">Some quick example text ti build on thr card title and make up the bulk og thr card's content.</p>
+            </div>
+            
+            </div>
+            <div class="card col-md-6 col-xl-3" style="width: 18rem;">
+            <img src="css/iphone.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <span class="badge rounded-pill text-bg-primary">News</span>
+                <h5 class="card-title">Blog post title</h5>
+                <p class="card-text fs-0.1">Some quick example text ti build on thr card title and make up the bulk og thr card's content.</p>
+            </div>
+            
+            </div>
+            <div class="card col-md-6 col-xl-3" style="width: 18rem;">
+            <img src="css/iphone.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <span class="badge rounded-pill text-bg-primary">News</span>
+                <h5 class="card-title">Blog post title</h5>
+                <p class="card-text fs-0.1">Some quick example text ti build on thr card title and make up the bulk og thr card's content.</p>
+            </div>
+            
+            </div>
+        </div>
+
+    </div>
+    
+    <span></span>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-2 order-xl-2">
+                <img src="css/iphone.png" style="width: 50px; height:50px; border-radius: 20px;">
+            </div>
+            <div class="col-10 col-xl-5 order-xl-1 text-xl-end">
+                <p>Lorem ipsum dolor sit amet. consectetur adipisicig edit. Possimus in nisi obcaecati. Natus ipsam.</p>
+            </div>
+            <div class="col col-xl-5 order-xl-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-xl-2 order-xl-2">
+                <img src="css/iphone.png" style="width: 50px; height:50px; border-radius: 20px;">
+            </div>
+            <div class="col-10 col-xl-5 order-xl-3 text-first">
+                <p>Lorem ipsum dolor sit amet. consectetur adipisicig edit. Possimus in nisi obcaecati. Natus ipsam.</p>
+            </div>
+            <div class="col col-xl-5 order-xl-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-xl-2 order-xl-2">
+                <img src="css/iphone.png" style="width: 50px; height:50px; border-radius: 20px;">
+            </div>
+            <div class="col-10 col-xl-5 order-xl-1">
+                <p>Lorem ipsum dolor sit amet. consectetur adipisicig edit. Possimus in nisi obcaecati. Natus ipsam.</p>
+            </div>
+            <div class="col col-xl-5 order-xl-5"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
